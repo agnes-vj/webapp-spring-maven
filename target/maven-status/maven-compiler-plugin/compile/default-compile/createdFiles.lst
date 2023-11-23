@@ -1,0 +1,4 @@
+com\devops\demo\DemoApplication.class
+com\devops\demo\User.class
+com\devops\demo\UserController.class
+com\devops\demo\UserRepository.class
