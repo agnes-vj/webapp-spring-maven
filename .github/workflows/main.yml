@@ -8,7 +8,9 @@ jobs:
         - name: Say Hello
           run: echo "Hello GitHub Worflow!!"
           shell: bash
-        - name: say Goodbye
+  goodbye:
+    runs-on: ubuntu-latest
+        - name: Say Goodbye
           run: echo "Goodbye for now!!"
           shell: bash
           
