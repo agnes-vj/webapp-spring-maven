@@ -1,4 +1,4 @@
-name: Hello Workflow
+name: Greetings Workflow
 on:
   workflow_dispatch:
 jobs:
