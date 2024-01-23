@@ -1,0 +1,14 @@
+name: Hello Workflow
+on:
+  workflow_dispatch:
+jobs:
+  hello:
+     runs-on: ubuntu-latest
+     steps:
+        -name: Say Hello
+         run: echo 'Hello GitHub Worflow!!"
+         shell: bash
+        - name: say Goodbye
+          run: echo "Goodbye for now!!"
+          shell: bash
+          
