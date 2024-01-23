@@ -10,6 +10,7 @@ jobs:
           shell: bash
   goodbye:
     runs-on: ubuntu-latest
+    steps:
         - name: Say Goodbye
           run: echo "Goodbye for now!!"
           shell: bash
