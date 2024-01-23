@@ -6,7 +6,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
         -name: Say Hello
-         run: echo 'Hello GitHub Worflow!!"
+         run: echo "Hello GitHub Worflow!!"
          shell: bash
         - name: say Goodbye
           run: echo "Goodbye for now!!"
